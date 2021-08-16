@@ -1,0 +1,11 @@
+<h1>I am a score page</h1>
+<% if @included %>
+  <p>The letters are included</p>
+  <% if @english_word %>
+    <p>The word is an english word</p>
+  <% else %>
+    <p>The word is not an english word</p>
+  <% end %>
+<% else %>
+  <p>The letteres aren't included</p>
+<% end %>
